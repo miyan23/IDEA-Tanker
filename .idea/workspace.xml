@@ -1,0 +1,262 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="Tanker:jar" />
+    </artifacts-to-build>
+  </component>
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="2eb280fc-246a-4623-b6a5-0772ba96f2dc" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/artifacts/Tanker_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tanker.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/res/data/enemies.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/res/data/gameMap.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/res/data/myTank1.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/res/data/myTank2.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/res/data/runTime.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/res/data/score.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/res/host/isHost.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/res/images/boom_0.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/res/images/boom_1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/res/images/boom_2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/res/images/boom_3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/res/images/cover.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/res/images/d.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/res/images/dl.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/res/images/hard.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/res/images/help.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/res/images/l.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/res/images/ll.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/res/images/over.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/res/images/r.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/res/images/rl.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/res/images/tile.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/res/images/u.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/res/images/ul.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/game/app/GameMain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/game/controller/KeyControl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/game/controller/MouseControl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/game/entity/Bullet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/game/entity/Collide.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/game/entity/GameFrame.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/game/entity/Score.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/game/entity/Timing.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/game/keep/BulletDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/game/keep/GameSaverLoader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/game/keep/TankDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/game/map/GameMap.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/game/map/MapTile.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/game/mq/Message.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/game/mq/RabbitMq.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/game/pool/BulletsPool.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/game/pool/EnemyTanksPool.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/game/pool/MapTilesPool.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/game/tank/EnemyTank.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/game/tank/MyTank.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/game/tank/Tank.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/game/thread/ThreadTasks.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/game/thread/ThreadsPool.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/game/util/Constant.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/game/util/Tools.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/game/view/GameWindow.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/META-INF/MANIFEST.MF" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="2fWwJLCT2mP2zpfODMILOATDstT" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "E:/课程/软件体系结构/项目/Tanker",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "org.jetbrains.plugins.github.ui.GithubSettingsConfigurable",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\课程\软件体系结构\项目\Tanker\res\images" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\课程\软件体系结构\项目\Tanker\src\main\java\com\game" />
+      <recent name="E:\课程\软件体系结构\项目\Tanker\src\main\java" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.game.pool" />
+      <recent name="com.game.tank" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="GameMain" type="Application" factoryName="Application" singleton="false" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.game.app.GameMain" />
+      <module name="Tanker" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.game.app.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.GameMain" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="2eb280fc-246a-4623-b6a5-0772ba96f2dc" name="Changes" comment="" />
+      <created>1713930070335</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1713930070335</updated>
+      <workItem from="1713930071334" duration="36000" />
+      <workItem from="1713930189402" duration="14000" />
+      <workItem from="1713941638923" duration="2963000" />
+      <workItem from="1713944653257" duration="1156000" />
+      <workItem from="1713946443057" duration="4038000" />
+      <workItem from="1713957766904" duration="6412000" />
+      <workItem from="1714372757152" duration="48000" />
+      <workItem from="1714373442207" duration="29000" />
+      <workItem from="1714373924809" duration="432000" />
+      <workItem from="1714374496591" duration="165000" />
+      <workItem from="1714527951923" duration="8128000" />
+      <workItem from="1714547026151" duration="21446000" />
+      <workItem from="1714612330732" duration="12265000" />
+      <workItem from="1714632478307" duration="16998000" />
+      <workItem from="1714699747059" duration="9330000" />
+      <workItem from="1714709164721" duration="256000" />
+      <workItem from="1714709435519" duration="1088000" />
+      <workItem from="1714710838134" duration="78000" />
+      <workItem from="1714720698505" duration="4740000" />
+      <workItem from="1714725480013" duration="3316000" />
+      <workItem from="1714735983124" duration="6458000" />
+      <workItem from="1714742505790" duration="180000" />
+      <workItem from="1714742695371" duration="7709000" />
+      <workItem from="1714786035539" duration="6220000" />
+      <workItem from="1714792317378" duration="3143000" />
+      <workItem from="1714873920843" duration="128000" />
+      <workItem from="1714976297288" duration="682000" />
+      <workItem from="1714980421936" duration="40000" />
+      <workItem from="1714980957900" duration="122000" />
+      <workItem from="1714981551104" duration="1685000" />
+      <workItem from="1714995174962" duration="378000" />
+      <workItem from="1714995689078" duration="9452000" />
+      <workItem from="1715005494936" duration="2110000" />
+      <workItem from="1715007624869" duration="119000" />
+      <workItem from="1715007756440" duration="1522000" />
+      <workItem from="1715040511925" duration="3268000" />
+      <workItem from="1715046339230" duration="4562000" />
+      <workItem from="1715050930952" duration="17356000" />
+      <workItem from="1715087433703" duration="122000" />
+      <workItem from="1715088332668" duration="212000" />
+      <workItem from="1715132925930" duration="5028000" />
+      <workItem from="1715137968988" duration="1862000" />
+      <workItem from="1715140777468" duration="107000" />
+      <workItem from="1715149590787" duration="2605000" />
+      <workItem from="1715152208804" duration="63000" />
+      <workItem from="1715152284788" duration="908000" />
+      <workItem from="1715153815921" duration="2402000" />
+      <workItem from="1715157125468" duration="1884000" />
+      <workItem from="1715230158457" duration="246000" />
+      <workItem from="1715334319269" duration="237000" />
+      <workItem from="1715338482811" duration="153000" />
+      <workItem from="1715338976535" duration="26000" />
+      <workItem from="1715421393188" duration="181000" />
+      <workItem from="1715423802278" duration="103000" />
+      <workItem from="1715479385999" duration="25000" />
+      <workItem from="1715481994247" duration="10000" />
+      <workItem from="1715516577966" duration="3655000" />
+      <workItem from="1715568058213" duration="1414000" />
+      <workItem from="1715591061003" duration="1497000" />
+      <workItem from="1715592752423" duration="44000" />
+      <workItem from="1715593723415" duration="212000" />
+      <workItem from="1715593949189" duration="338000" />
+      <workItem from="1715601984966" duration="833000" />
+      <workItem from="1715609612297" duration="4000" />
+      <workItem from="1715651765276" duration="6359000" />
+      <workItem from="1715669197037" duration="1209000" />
+      <workItem from="1715670417066" duration="804000" />
+      <workItem from="1715671231788" duration="857000" />
+      <workItem from="1715672097128" duration="430000" />
+      <workItem from="1715672536289" duration="116000" />
+      <workItem from="1715672660644" duration="804000" />
+      <workItem from="1715673490809" duration="2573000" />
+      <workItem from="1715677040828" duration="15778000" />
+      <workItem from="1715737990301" duration="6510000" />
+      <workItem from="1715754208263" duration="31085000" />
+      <workItem from="1715788689018" duration="1019000" />
+      <workItem from="1715811496010" duration="487000" />
+      <workItem from="1715863433533" duration="159000" />
+      <workItem from="1715863905992" duration="927000" />
+      <workItem from="1716088503791" duration="99000" />
+      <workItem from="1716186357680" duration="6295000" />
+      <workItem from="1716342552355" duration="9172000" />
+      <workItem from="1716548721260" duration="800000" />
+      <workItem from="1716549656915" duration="1066000" />
+      <workItem from="1716603388340" duration="185000" />
+      <workItem from="1716603737525" duration="73000" />
+      <workItem from="1716635858373" duration="1475000" />
+      <workItem from="1716644263374" duration="1535000" />
+      <workItem from="1716902949657" duration="1053000" />
+      <workItem from="1717399282985" duration="52000" />
+      <workItem from="1718587232604" duration="615000" />
+      <workItem from="1718590045045" duration="32000" />
+      <workItem from="1718590815897" duration="188000" />
+      <workItem from="1718612548413" duration="799000" />
+      <workItem from="1729477015565" duration="1247000" />
+      <workItem from="1729685101571" duration="823000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>
